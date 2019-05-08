@@ -1,0 +1,27 @@
+  @import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header{
+    background-color:#545454;
+    color: white;
+    padding: 0.5em;
+}
+.afbeelding {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+    height: 35%;
+  }
+    .boks img{
+        width: 85%;
+        height: 20em;
+    }
+    footer{
+        background-color: #545454;
+        color: white;
+        padding: 0.5em;
+        margin-top: 9em;
+    }
